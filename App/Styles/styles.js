@@ -148,7 +148,7 @@ export const cssLogin = StyleSheet.create({
     },
     errorText: {
         color: 'red',
-        fontSize: 18,
+        fontSize: 14,
         paddingTop: 12,
         textAlign: 'center'
     }
@@ -159,7 +159,8 @@ export const cssLogin = StyleSheet.create({
 // Register screen styles begins here
 export const cssRegister = StyleSheet.create({
     container: {
-        paddingTop: 44,
+        paddingTop: 38,
+        paddingBottom:32,
         paddingLeft: 9,
         paddingRight: 9,
         justifyContent: 'center',
@@ -167,10 +168,10 @@ export const cssRegister = StyleSheet.create({
         flex: 1,
         backgroundColor: '#EBE8E1',
     },
-    container1: {
-        color: 'black'
-        //backgroundColor:'white'
-    },
+    // container1: {
+    //     //color: 'black'
+    //     //backgroundColor:'white'
+    // },
     email: {
         paddingTop: 14,
         backgroundColor: 'white',

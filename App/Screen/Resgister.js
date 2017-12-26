@@ -134,14 +134,14 @@ export class Resgister extends Component {
               </TextInput>
             </View>
 
-            <View style={{ paddingTop: 14 }}>
+            <View style={{ paddingTop: 18 }}>
               <TouchableOpacity style={cssRegister.buttonContainer}>
                 <Text style={cssRegister.loginbutton}
                   onPress={() => alert('Welcome ')}>SUBMIT</Text>
               </TouchableOpacity>
 
             </View>
-            <View style={{ paddingTop: 18 }}>
+            <View style={{ paddingTop: 23 }}>
               <TouchableOpacity style={cssRegister.googleButtonContainer}>
                 <Text style={cssRegister.loginbutton}
 
